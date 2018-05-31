@@ -1,34 +1,34 @@
 {
   "components": {
     "connection-status": {
-      "disconnected": "Disconnected from UI server",
-      "connected": "Connected!"
+      "disconnected": "تم قطع الإتصال من خادم واجهة المستخدم",
+      "connected": "متصل!"
     },
     "file-diff": {
-      "binary": "Binary file not shown",
+      "binary": "الملف الثنائي لا يظهر",
       "actions": {
         "open": "فتح في المحرر"
       }
     },
     "file-diff-view": {
-      "files-changed": "Files changed",
+      "files-changed": "الملفات التي تم تغييرها",
       "search-file": "البحث عن ملف",
       "empty": "لم يتم إيجاد أي تغيير",
       "modals": {
         "commit": {
-          "title": "Commit changes",
-          "input": "Enter a commit message",
-          "subtitle": "Record changes to the repository",
+          "title": "تنفيذ التغييرات",
+          "input": "أدخل رسالة التغييرات",
+          "subtitle": "سجل التغييرات في المستودع",
           "actions": {
-            "commit": "Commit",
+            "commit": "تنفيذ",
             "cancel": "إلغاء"
           }
         }
       },
       "actions": {
-        "collapse-all": "Collapse all",
-        "expand-all": "Expand all",
-        "commit": "Commit changes",
+        "collapse-all": "طي الكل",
+        "expand-all": "توسيع الكل",
+        "commit": "تنفيذ التغييرات",
         "skip": "تخطي",
         "continue": "مواصلة",
         "refresh": "إعادة تحديث"
@@ -39,24 +39,24 @@
         "tooltips": {
           "parent-folder": "فتح المجلد الرئيسي",
           "edit-path": "تعديل المسار",
-          "favorite": "Toggle favorite",
-          "favorite-folders": "Favorite folders",
+          "favorite": "إظهار المفضلات",
+          "favorite-folders": "المجلدات المفضلة",
           "refresh": "إعادة تحديث"
         },
-        "placeholder": "Enter the full path to a folder",
-        "empty": "No favorite folders yet."
+        "placeholder": "أدخل المسار الكامل إلى مجلد",
+        "empty": "لا توجد مجلدات مفضلة بعد."
       }
     },
     "list-item-info": {
       "more-info": "معلومات أكثر"
     },
     "logger-view": {
-      "title": "Logs",
-      "empty": "Not logs yet",
+      "title": "السجلات",
+      "empty": "لا توجد سجلات بعد",
       "buttons": {
-        "clear": "Clear logs",
-        "scroll": "Scroll to bottom",
-        "close": "Close"
+        "clear": "حذف السجلات",
+        "scroll": "إنتقل للأسفل",
+        "close": "إغلاق"
       }
     },
     "progress-screen": {
@@ -79,32 +79,32 @@
     },
     "project-select-list-item": {
       "tooltips": {
-        "favorite": "Toggle favorite",
+        "favorite": "أظهر المفضلة",
         "delete": "حذف"
       }
     },
     "project-plugin-item": {
       "version": "الإصدار",
       "latest": "الأحدث",
-      "official": "Official",
-      "installed": "Installed",
+      "official": "رسمي",
+      "installed": "مثبت",
       "actions": {
-        "update": "Update {target}"
+        "update": "تحديث {الهدف}"
       }
     },
     "prompt-list": {
-      "default": "Default"
+      "default": "إفتراضي"
     },
     "prompts-list": {
-      "empty": "No configuration"
+      "empty": "لا توجد إعدادات"
     },
     "status-bar": {
       "project": {
-        "tooltip": "Current project<br><i>Click to toggle Project Manager</i>",
-        "empty": "No project"
+        "tooltip": "المشروع الحالي<br><i>إضغط هنا لإظهار إدارة المشاريع</i>",
+        "empty": "لا يوجد مشروع"
       },
       "path": {
-        "tooltip": "Current Working Folder"
+        "tooltip": "مجلد العمل الحالي"
       },
       "log": {
         "tooltip": "Logs<br><i>Click to toggle Vue CLI logs</i>",
@@ -134,7 +134,7 @@
   },
   "mixins": {
     "progress": {
-      "creating": "Creating project...",
+      "creating": "إنشاء مشروع...",
       "git-init": "Initializing git repository...",
       "plugins-install": "Installing Vue CLI plugins. This might take a while...",
       "invoking-generators": "Invoking generators...",
@@ -161,47 +161,47 @@
   },
   "views": {
     "project-select": {
-      "title": "Vue Project Manager",
+      "title": "إدارة مشاريع فيو",
       "tabs": {
-        "projects": "Projects",
-        "create": "Create",
-        "import": "Import"
+        "projects": "المشاريع",
+        "create": "إنشاء",
+        "import": "إستيراد"
       },
       "buttons": {
-        "create": "Create a new project here",
-        "import": "Import this folder"
+        "create": "إنشاء مشروع جديد هنا",
+        "import": "إستيراد هذا المجلد"
       }
     },
     "project-create": {
-      "title": "Create a new project",
+      "title": "إنشاء مشروع جديد",
       "tabs": {
         "details": {
-          "title": "Details",
+          "title": "التفاصيل",
           "form": {
             "folder": {
-              "label": "Project folder",
+              "label": "مجلد المشروع",
               "placeholder": "my-app",
-              "tooltip": "Change base folder",
-              "action": "Select this folder"
+              "tooltip": "تغير المجلد الأساسي",
+              "action": "إختر هذا المجلد"
             },
             "manager": {
               "label": "Package manager",
-              "default": "Default"
+              "default": "الإفتراضي"
             },
             "options": {
-              "label": "Additional options",
+              "label": "خيارات إضافية",
               "description": "Overwrite target folder if it exists"
             }
           },
           "buttons": {
-            "cancel": "Cancel",
-            "next": "Next"
+            "cancel": "إلغاء",
+            "next": "التالي"
           },
           "modal": {
             "title": "Cancel and reset project creation",
             "body": "Are you sure you want to reset the project creation?",
             "buttons": {
-              "back": "Go back",
+              "back": "العودة",
               "clear": "Clear project"
             }
           }
