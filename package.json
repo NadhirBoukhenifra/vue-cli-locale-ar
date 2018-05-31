@@ -1,0 +1,21 @@
+{
+  "name": "vue-cli-locale-ar",
+  "version": "0.0.1",
+  "description": "Arabic localization for @vue/cli",
+  "unpkg": "./locales/ar.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NadhirBoukhenifra/vue-cli-locale-ar.git"
+  },
+  "keywords": [
+    "vuejs",
+    "vue-cli",
+    "locale"
+  ],
+  "author": "Nadhir Boukhenifra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NadhirBoukhenifra/vue-cli-locale-ar/issues"
+  },
+  "homepage": "https://github.com/NadhirBoukhenifra/vue-cli-locale-ar#readme"
+}
